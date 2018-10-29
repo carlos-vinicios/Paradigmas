@@ -5,6 +5,7 @@ public abstract class Imovel {
 
     public abstract int portasAbertas();
     public abstract int totalPortas();
+    public abstract int adicionarPorta(Porta p);
     
     public Imovel(String cor) {
         this.cor = cor;

@@ -27,15 +27,17 @@ public class Edificio extends Imovel {
         return portas.size();
     }
     
+    @Override
+    public int adicionarPorta(Porta p){
+        portas.add(p);
+        return 1;
+    }
+    
     public int totalAndares(){
         return this.totalDeAndares;
     }
     
     public void adicionarAndar(){
         this.totalDeAndares++;
-    }
-    
-    public void adicionarPorta(Porta p){
-        portas.add(p);
     }
 }
