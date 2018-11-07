@@ -8,6 +8,18 @@ public class Casa extends Imovel {
         this.p1 = p1;
     }
     
+    public Porta getPorta1(){
+        return this.p1;
+    }
+    
+    public Porta getPorta2(){
+        return this.p2;
+    }
+    
+    public Porta getPorta3(){
+        return this.p3;
+    }
+    
     @Override
     public int adicionarPorta(Porta p){
        if(p1 == null){

@@ -11,7 +11,12 @@ public class Edificio extends Imovel {
         this.totalDeAndares = 0;
         this.portas = new ArrayList();
     }
-   
+    
+    
+    public ArrayList getPortas(){
+        return portas;
+    }
+    
     @Override
     public int portasAbertas(){
         int total = 0, i;
